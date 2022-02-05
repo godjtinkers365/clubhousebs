@@ -1,8 +1,11 @@
 #Usage
 
     echo "Downloading Clucbhouse module
-    git clone ...
-
+    git clone https://github.com/godjtinkers365/clubhousebs.git
+    
+    echo "enter clubhousebs directory"
+    cd ./clubhousebs
+    
     echo "Install node packages"
     npm run installpkgs
 
