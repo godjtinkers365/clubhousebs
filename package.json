@@ -1,0 +1,24 @@
+{
+  "name": "clubhousebs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installpkgs": "npm install",
+    "installtypescript": "npm install -g typescript",
+    "step0": "tsc step0.ts && node step0.js",
+    "step1": "tsc step1.ts && node step1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "appvariables": {
+    "exampleUserId":"useridhere",
+    "examplePhoneNumber": "+15555555555",
+    "exampleVerificationCode":"5555"
+  },
+  "dependencies": {
+    "clubhouse-client": "^1.3.0"
+  }
+}
